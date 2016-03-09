@@ -1,0 +1,7 @@
+{
+	name: "pivotFix",
+	source: [
+        "main.js"
+    ],
+    style: []
+}

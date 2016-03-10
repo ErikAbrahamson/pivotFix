@@ -3,7 +3,7 @@
 
     ns.pivotFix = function(w) {
 
-        var supportedChartTypes = ["pivot"];
+        var supportedChartTypes = ['pivot'];
         function widgetIsSupported(type) {
             if (supportedChartTypes.indexOf(type) >= 0) return true;
             else return false;

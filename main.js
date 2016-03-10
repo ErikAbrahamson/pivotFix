@@ -14,9 +14,8 @@
             var cells = myTable[0].children[0].children[1].children;
             for (var i = 0; i < cells.length; i++) {
                 for (var j = 0; j < cells[i].children.length; j++) {
-                    if (cells[i].children[j].innerHTML === '') {
-                        cells[i].children[j].innerHTML = 'N/A';
-            		}
+                    var g = cells[i].children[j].innerHTML;
+                    if (g === '') g = 'N/A';
             	}
             }
             event.result.table = myTable.html();
